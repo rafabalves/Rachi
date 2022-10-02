@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: 'Inter', sans-serif;
+  line-height: 140%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #6e7275;
+  padding: calc(8rem / 16);
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+}
+
+
+.row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  width: 100%;
+  padding: calc(19rem / 16) calc(135rem / 16);
+  position: sticky;
+  top: 0;
+
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav img {
+  height: 2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: calc(50rem / 16);
+}
+
+#hero-page {
+  padding: calc(70rem / 16) calc(135rem / 16);
+  background: #eff8ff;
+}
+
+#hero-page div img {
+  width: calc(500rem / 16);
+  height: calc(500rem / 16);
+}
+
+#hero-page div h1 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+  color: #293145;
+  font-size: calc(48rem / 16);
+  line-height: calc(60rem / 16);
+}
+
+#hero-page div button {
+  background: #0f9afe;
+  border-radius: calc(50rem / 16);
+  margin-top: 3rem;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: calc(20rem / 16);
+  line-height: 120%;
+
+  padding: 1rem calc(36rem / 16);
+  border: none;
+  cursor: pointer;
+}
+
+.cards {
+  gap: calc(130rem/16);
+}
+
+#functionalities {
+  padding: calc(56rem/16) calc(109rem/16);
+}
+
+#functionalities strong {
+  margin: 30px 0 16px 0;
+  font-family: 'Sora';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#functionalities li {
+  max-width: calc(210rem/16);
+}
+
+#functionalities p {
+  text-align: center;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: calc(16rem/16);
+}
+
+#functionalities h2 {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(40rem/16);
+  margin-bottom: calc(80rem/16);
+}
